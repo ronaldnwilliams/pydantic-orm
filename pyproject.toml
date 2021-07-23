@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pydantic-orm"
-version = "0.1.0"
+version = "0.1.1"
 description = "An asynchronous ORM that uses pydantic."
 authors = ["Ronald Williams <rnwprogramming@gmail.com>"]
 license = "MIT"
@@ -22,7 +22,7 @@ python = "^3.6.1"
 pydantic = "^1.8.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "^6.2.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
